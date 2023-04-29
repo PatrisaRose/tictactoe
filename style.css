@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.elem{
+    display: flex;
+    padding: 10px;
+    border: 5px solid black;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    
+}
+
+p{
+    font-size: 100px;
+    font-weight: 900;
+}
